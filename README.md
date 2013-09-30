@@ -27,6 +27,7 @@ start NodeJS module by running
 Then, open index.html file to begin running the scene and logging the character traces.
 		http://localhost:8888/index.html
 
+===================================
 Charts folder contains the D3js code to generate the charts to compare gaze direction for baseline only and rules blocking.  Chart labels aren't correct, but follow (from top to bottom) for the y axis:
 stageright
 audience
@@ -54,7 +55,9 @@ Then, open chartraces.html file to begin running the scene and logging the chara
 		http://localhost:8888/chartraces.html
 Enter the filename that exists in both the bmllogs/ and ruleslogs/ folders for the character you want to compare gaze direction or position for.  Then, click the button
 
+Folders contain sample files for running.
 
+====================================
 CharTraces contains the D3js code to generate character traces for all characters during a scene for either baseline or rules blocking.  Each character has a different shape, colors go from red to  blue to indicate time progression, and each shape points in the direction the character was facing at each timestep.
 
 To run:
@@ -63,4 +66,6 @@ start python for page hosting
 Then, open chartraces.html file to begin running the scene and logging the character traces.
 		http://localhost:8888/chartraces.html
 Enter the folder name that contains the log files to be plotted, such as ruleslogs/  or  bmllogs/  , then click the button.
+
+Folders contain sample files for running.
 
