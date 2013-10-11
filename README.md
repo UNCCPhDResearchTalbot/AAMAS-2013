@@ -26,6 +26,8 @@ start NodeJS module by running
 		node server
 Then, open index.html file to begin running the scene and logging the character traces.
 		http://localhost:8888/index.html
+		
+Sample output files are in the logs/bmllogs and logs/ruleslogs
 
 ===================================
 Charts folder contains the D3js code to generate the charts to compare gaze direction for baseline only and rules blocking.  Chart labels aren't correct, but follow (from top to bottom) for the y axis:
